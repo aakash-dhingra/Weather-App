@@ -69,8 +69,8 @@ function findWeather(city) {
 
 function currentDate() {
     var WeekDay = new Date;
-    let week = ["Sunday", "Monday", "Tuesday", "Wednday", "Thrusday", "Friday", "Saturday"];
-    let month = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let day = WeekDay.getDate();
     return `${week[WeekDay.getDay()]}- ${day}  ${month[WeekDay.getMonth()]},${WeekDay.getFullYear()}`;
 }
