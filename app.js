@@ -74,5 +74,3 @@ function currentDate() {
     let day = WeekDay.getDate();
     return `${week[WeekDay.getDay()]}- ${day}  ${month[WeekDay.getMonth()]},${WeekDay.getFullYear()}`;
 }
-// ---------------------------------using axios-----------------------------------------------
-
