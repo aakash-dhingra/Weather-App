@@ -33,7 +33,7 @@ input.addEventListener('keypress',function (e) {
 
 
 function findWeather(city) {
-    let cityName = input.value;
+    
     fetch(`https://${api.url}weather?q=${city}&units=metric&APPID=${api.apiKey}`)
         .then((apiData) => {
             console.log(apiData);
